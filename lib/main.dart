@@ -141,7 +141,6 @@ class MyApp extends StatelessWidget {
                         amount: '55 622',
                         currencyCode: 'USD',
                         icon: Symbols.paid_sharp,
-                        isInverted: true,
                         order: cardOrder++,
                       ),
                       CurrencyCard(

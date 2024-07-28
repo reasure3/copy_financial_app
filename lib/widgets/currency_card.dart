@@ -14,9 +14,8 @@ class CurrencyCard extends StatelessWidget {
     required this.currencyCode,
     required this.amount,
     required this.icon,
-    this.isInverted = false,
     this.order = 0,
-  });
+  }) : isInverted = order % 2 == 1;
 
   @override
   Widget build(BuildContext context) {
